@@ -1,0 +1,196 @@
+
+
+/*MODIFACACIONES SOBRE BARRA DE NAVEGACION*/
+nav{
+    display:flex;
+    align-items: center;
+    background-color: #f78b10;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+
+}
+
+
+nav li {
+    display: block;    
+    float: right;
+    padding: 25px  38px;
+    color: white;
+}
+
+h1{
+    color: rgb(235, 189, 63);
+    font-size: 45px;
+}
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+
+
+
+
+  /*MODIFICACIONES PARA EL TEXTO CON IMAGEN DE FONDO*/
+
+  .contenedor{
+    background-image: url(manoyoga.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 450px;/*ALTURA DE LA IMAGEN*/
+
+    /*COLOR Y MODIFACION DEL TEXTO DEL CONTENEDOR*/
+    color: white;
+    font-size: 40px;
+    padding: 35px;
+    text-shadow: 2px 2px rgb(17, 17, 17);
+  }
+
+/*MODIFICACIONES CONTENEDOR CURSOS*/
+.cursos h2{
+    color: rgb(19, 17, 17);
+    font-size: 38px;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 10px;
+}
+.cursos p{
+    color: gray;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+
+  /*MODIFACIONES SOBRE EL FOOTER*/
+
+  .encabezado{
+    display:flex;
+    align-items: center;
+    background-color: #f78b10;
+    justify-content: space-between;
+  }
+  .derechos{
+    display:flex;
+    align-items: center;
+    background-color: #f78b10;
+    justify-content: center;
+  }
+
+span{
+    font-size: 28px;
+    padding: 10px;
+    margin: 4px;
+    background-color: #fc8702;
+    color: white;
+    border-radius: 50px;
+    box-shadow:  0px 5px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease;
+}
+
+.fb:hover{
+    background-color: rgb(42, 42, 230);
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgb(45, 65, 250),
+    0 0 15px rgb(45, 65, 250),
+    0 0 15px rgb(45, 65, 250),
+    0 0 15px rgb(45, 65, 250);
+
+}
+
+.ins:hover{
+    background-color: rgb(248, 51, 222);
+    border-radius: 50px;
+    box-shadow:  0 0 15px rgb(240, 124, 234),
+    0 0 15px rgb(240, 124, 234),
+    0 0 15px rgb(240, 124, 234),
+    0 0 15px rgb(240, 124, 234);
+}
+
+
+.wp:hover{
+    background-color: rgb(27, 241, 74);
+    border-radius: 50px;
+    box-shadow:  0 0 15px rgb(45, 241, 72),
+    0 0 15px rgb(34, 240, 79),
+    0 0 15px rgb(46, 236, 40),
+    0 0 15px rgb(73, 247, 38);
+
+}
+
+
+
+
+
+nav li:hover{
+    background-color: rgb(245, 116, 10);
+    animation: 0.5s infinite botonanim;
+    
+}
+@keyframes botonanim{
+    0% {
+        transform: scaleX(1.0);
+    }
+    50% {
+        transform: scaleX(1.1);
+    }
+    100% {
+        transform: scaleX(1.0);
+    }
+}
+
+/*CODIGO PARA LAS TARJETAS*/
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.container .imagenes {
+        width: 200px;
+        height: 300px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25S;
+        
+       
+    
+}
+
+.container .imagenes:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 17px rgba(0,0,0,0.3);
+}
+
+.container .imagenes img{
+
+  
+    width: 280px;
+    height: 170px;
+    margin: auto;
+   
+    
+ 
+
+
+}
+
+
+
+
